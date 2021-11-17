@@ -1,0 +1,18 @@
+img {
+  width: 500px;
+  height: 250px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgb(0, 193, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(0, 193, 255, 1) 36%,
+    rgba(45, 255, 231, 1) 100%
+  );
+}
